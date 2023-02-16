@@ -1,0 +1,47 @@
+.box{
+    background-color: white;
+    padding:20px;
+    border:2px black solid;
+    display:flex;
+    flex-flow:column wrap;
+    height: 250px;
+    width:300px;
+    justify-content:space-evenly;
+    border-radius: 10px;
+
+}
+
+input , button{
+    border: none;
+    background-color: #e7e7e7;
+    padding:7px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+ .box1{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-between;
+ }
+
+ .box2{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-around;
+ }
+ a{
+    text-decoration: none;
+ }
+ .container{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #e7e7e7;
+    
+
+ }
